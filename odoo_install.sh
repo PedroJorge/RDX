@@ -63,6 +63,7 @@ sudo pip install stem
 sudo pip install beautifulsoup4
 sudo pip install js2py
 sudo pip install demjson
+sudo pip install PyPDF2
 
 echo -e "\n---- Install wkhtml and place on correct place for ODOO 8 ----"
 sudo wget http://download.gna.org/wkhtmltopdf/0.12/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb

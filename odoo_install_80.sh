@@ -79,6 +79,11 @@ sudo mkdir /var/log/$OE_USER
 sudo chown $OE_USER:$OE_USER /var/log/$OE_USER
 
 #--------------------------------------------------
+# Install Other Libraries
+#--------------------------------------------------
+sudo apt-get install colortail
+
+#--------------------------------------------------
 # Install ODOO
 #--------------------------------------------------
 echo -e "\n==== Installing ODOO Server ===="
